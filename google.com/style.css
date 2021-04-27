@@ -56,13 +56,25 @@ button {
 
 .menu__link:not(.active) {
     margin-bottom: 2px;
-    /*Diz que todos os links que nãi estiverem ativos terão uma margin botton do mesmo tamanho do de cima*/
 }
 
-.menu__section.rigth {
+.menu__section.right {
     margin-right: 4px;
 }
 
-.menu__section.rigth .menu__icon {
+.menu__section.right .menu__icon {
     padding: 12px;
+}
+
+.menu__profile {
+    padding: 4px;
+    width: 40px;
+    height: 40px;
+    position: relative
+}
+
+.menu__avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
 }

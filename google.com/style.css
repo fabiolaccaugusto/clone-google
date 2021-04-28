@@ -1,86 +1,149 @@
-/*RESET*/
-
-
-/*Para colocar algo em todos os elementos, utilizar o asteristico*/
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-*,
-input,
-button {
-    font-family: Arial, sans-serif, verdana;
-}
-
-
-/*STYLES*/
-
-
-/*header*/
-
-.menu {
-    height: 48px;
-    width: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    /*Fala que o conteúdo dele vai ter o max de espaçamento entre a esquerda e a direita*/
-}
-
-.menu__section {
-    display: flex;
-    align-items: center;
-    /*para deixar tudo na mesma linha*/
-}
-
-.menu__section.left .menu__icon {
-    padding: 12px 16px;
-}
-
-.menu__link {
-    text-transform: uppercase;
-    /*transformar td em maiusculo*/
-    font-size: 12px;
-    font-weight: 600;
-    color: #757575;
-    padding: 12px 8px;
-}
-
-.menu__link.active {
-    color: #4285f4;
-    border-bottom: 2px solid #4285f4;
-}
-
-.menu__link:not(.active) {
-    margin-bottom: 2px;
-}
-
-.menu__section.right {
-    margin-right: 4px;
-}
-
-.menu__section.right .menu__icon {
-    padding: 12px;
-}
-
-.menu__profile {
-    padding: 4px;
-    width: 40px;
-    height: 40px;
-    position: relative;
-}
-
-.menu__avatar {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-}
-
-.menu__avatar--frame {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+                        /*RESET*/
+                        /*Para colocar algo em todos os elementos, utilizar o asteristico*/
+                        
+                        * {
+                            margin: 0;
+                            padding: 0;
+                            box-sizing: border-box;
+                        }
+                        
+                        *,
+                        input,
+                        button {
+                            font-family: Arial, sans-serif, verdana;
+                        }
+                        /*STYLES*/
+                        /*header*/
+                        
+                        .menu {
+                            height: 48px;
+                            width: 100%;
+                            align-items: center;
+                            display: flex;
+                            justify-content: space-between;
+                            /*Fala que o conteúdo dele vai ter o max de espaçamento entre a esquerda e a direita*/
+                        }
+                        
+                        .menu__section {
+                            display: flex;
+                            align-items: center;
+                            /*para deixar tudo na mesma linha*/
+                        }
+                        
+                        .menu__section.left .menu__icon {
+                            padding: 12px 16px;
+                        }
+                        
+                        .menu__link {
+                            text-transform: uppercase;
+                            /*transformar tudo em maiusculo*/
+                            font-size: 12px;
+                            font-weight: 600;
+                            color: rgba(117, 122, 117, 1);
+                            padding: 12px 8px;
+                        }
+                        
+                        .menu__link.active {
+                            color: rgb(11, 64, 240);
+                            border-bottom: 2px solid rgb(11, 64, 240);
+                        }
+                        
+                        .menu__link:not(.active) {
+                            margin-bottom: 2px;
+                        }
+                        
+                        .menu__section.right {
+                            margin-right: 4px;
+                        }
+                        
+                        .menu__section.right .menu__icon {
+                            padding: 12px;
+                        }
+                        
+                        .menu__profile {
+                            padding: 4px;
+                            width: 40px;
+                            height: 40px;
+                            position: relative;
+                        }
+                        
+                        .menu__avatar {
+                            width: 32px;
+                            height: 32px;
+                            border-radius: 50%;
+                        }
+                        
+                        .menu__avatar--frame {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+                        /* Main */
+                        
+                        .content {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                        
+                        .content__logo {
+                            margin-top: 10%;
+                            width: 272px;
+                            height: 92px;
+                        }
+                        
+                        .content__search {
+                            margin-top: 6%;
+                            min-width: 60%;
+                            border-radius: 40px;
+                            font-size: 16px;
+                            box-shadow: 4px 7px 5px rgba(90, 94, 90, 0.1);
+                            padding: 10px 24px;
+                            text-align: start;
+                            outline-style: none;
+                            border: none;
+                            background-image: url("lupa.png");
+                            background-position: left;
+                            background-repeat: no-repeat;
+                            background-size: 15px;
+                            background-position-x: 15px;
+                            text-indent: 20px;
+                        }
+                        /* Footer */
+                        
+                        .footer {
+                            bottom: 0;
+                            position: fixed;
+                            background-color: rgba(117, 122, 117, 0.2);
+                            width: 100%;
+                            justify-content: space-evenly;
+                        }
+                        
+                        .footer__section__location {
+                            font-size: 15px;
+                            padding: 15px 30px;
+                            color: rgba(0, 0, 0, .54);
+                            border-bottom: 1px solid #dadce0;
+                        }
+                        
+                        .footer__section__links {
+                            font-size: 14px;
+                            padding: 10px 30px;
+                            color: rgba(0, 0, 0, .54);
+                            font-family: arial, sans-serif;
+                            padding: 10px;
+                        }
+                        
+                        .footer__section__links__left {
+                            justify-content: space-evenly;
+                            display: flex;
+                            flex-wrap: wrap;
+                            padding: 10px;
+                        }
+                        
+                        .footer__section__links__right {
+                            justify-content: space-evenly;
+                            display: flex;
+                            flex-wrap: wrap;
+                            padding: 10px;
+                        }

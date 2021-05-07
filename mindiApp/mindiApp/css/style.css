@@ -1,0 +1,37 @@
+/*RESET*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box__splash_background {
+    background-image: url(/mindiApp/mindiApp/Background/background.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    resize: auto;
+    background-size: cover;
+}
+
+.box__splash_logo {
+    /* background-image: url(/mindiApp/mindiApp/Background/logo.svg); */
+    background-repeat: no-repeat;
+    width: 247px;
+    height: 267.23px;
+    position: absolute;
+    left: 20.29%;
+    right: 20.05%;
+    top: 35.49%;
+    bottom: 34.68%;
+}
+
+.rotate {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}

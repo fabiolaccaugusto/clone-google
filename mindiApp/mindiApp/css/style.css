@@ -16,16 +16,11 @@
     background-size: cover;
 }
 
-.box__splash_logo {
-    /* background-image: url(/mindiApp/mindiApp/Background/logo.svg); */
-    background-repeat: no-repeat;
-    width: 247px;
-    height: 267.23px;
+.img__splash_logo {
     position: absolute;
-    left: 20.29%;
-    right: 20.05%;
-    top: 35.49%;
-    bottom: 34.68%;
+    top: 35%;
+    left: calc(50% - 190px);
+    height: 420px;
 }
 
 .rotate {
@@ -34,4 +29,176 @@
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+.login__background {
+    background-image: url(/mindiApp/mindiApp/Background/background_login_1.svg), url(/mindiApp/mindiApp/Background/background_login_2.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    resize: auto;
+    background-size: cover;
+}
+
+.login__container {
+    margin: auto;
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    display: table;
+    left: calc(50% - 240px);
+    top: 35%;
+    border: 0px;
+    vertical-align: middle;
+    /* border: 3px solid red; */
+}
+
+* .login__box1 {
+    top: 0;
+    /* border: 3px solid blue; */
+    float: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.login__box1-1 {
+    font-size: 70px;
+    line-height: 45px;
+    padding: 15px;
+}
+
+.login__box1-2 {
+    padding: 3px;
+    font-size: 22px;
+    line-height: 20px;
+    letter-spacing: 1.6px;
+    color: rgba(50, 206, 255, 1);
+}
+
+* .login__box2 {
+    padding-top: 20px;
+    top: 50px;
+    /* border: 3px solid green; */
+}
+
+.login__box2_formulario input[type="email"],
+.login__box2_formulario input[type="senha"] {
+    display: block;
+    margin: auto;
+    padding: 8px;
+    border: 1px rgba(50, 206, 255, 1);
+    border-bottom-style: ridge;
+    width: 300px;
+}
+
+.login__box2_formulario_entrar {
+    width: 488px;
+    text-align: center;
+    top: 293px;
+    /* border: 3px solid black; */
+    padding: 0;
+    padding-top: 10px;
+}
+
+.login__box2_formulario_entrar input[type="submit"] {
+    display: inline-flex;
+    margin: auto;
+    border: 0px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.5;
+    padding: 4px;
+    cursor: pointer;
+    height: 43px;
+    background-color: white;
+}
+
+#imgSetaLogin {
+    width: 45px;
+    position: absolute;
+}
+
+.login__box3 {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 341px;
+    /* border: 3px solid yellow; */
+    width: 493px;
+    text-align: -webkit-center;
+}
+
+.login__box3_1 {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
+    color: darkgrey;
+    /* border: 3px solid rebeccapurple; */
+}
+
+.login__box3_google {
+    font-size: 18px;
+    box-shadow: 4px 7px 5px rgb(90 94 90 / 10%);
+    width: 260px;
+    background-image: url(../Icons/google.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    text-indent: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.login__box3_apple {
+    font-size: 18px;
+    box-shadow: 4px 7px 5px rgb(90 94 90 / 10%);
+    width: 260px;
+    background-image: url(../Icons/apple.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    text-indent: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.login__box4 {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 548px;
+    width: 493px;
+    text-align: -webkit-center;
+    padding: 10px;
+    /* border: 3px solid rebeccapurple; */
+}
+
+.login__box4_criarConta {
+    font-size: 16px;
+    width: 150px;
+    float: left;
+    display: block;
+    margin: auto;
+    padding: 8px;
+    border: 2px rgba(50, 206, 255, 1);
+    border-bottom-style: ridge;
+    font-weight: bold;
+}
+
+.login__box4_esqueciSenha {
+    font-size: 16px;
+    width: 150px;
+    float: right;
+    display: block;
+    margin: auto;
+    padding: 8px;
+    border: 2px rgba(50, 206, 255, 1);
+    border-bottom-style: ridge;
+    font-weight: bold;
 }

@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+
+/* SPLASH */
+
 .box__splash_background {
     background-image: url(/mindiApp/mindiApp/Background/background.svg);
     background-repeat: no-repeat;
@@ -31,6 +34,9 @@
     transform: rotate(90deg);
 }
 
+
+/* LOGIN */
+
 .login__background {
     background-image: url(/mindiApp/mindiApp/Background/background_login_1.svg), url(/mindiApp/mindiApp/Background/background_login_2.svg);
     position: relative;
@@ -44,11 +50,10 @@
 .login__container {
     margin: auto;
     position: absolute;
-    width: 500px;
-    height: 600px;
-    display: table;
-    left: calc(50% - 240px);
-    top: 35%;
+    width: 700px;
+    height: 900px;
+    left: 15%;
+    top: 28%;
     border: 0px;
     vertical-align: middle;
     /* border: 3px solid red; */
@@ -66,22 +71,21 @@
 }
 
 .login__box1-1 {
-    font-size: 70px;
+    font-size: 90px;
     line-height: 45px;
-    padding: 15px;
+    padding: 21px;
 }
 
 .login__box1-2 {
-    padding: 3px;
-    font-size: 22px;
-    line-height: 20px;
+    padding: 4px;
+    font-size: 29px;
+    line-height: 44px;
     letter-spacing: 1.6px;
     color: rgba(50, 206, 255, 1);
 }
 
 * .login__box2 {
-    padding-top: 20px;
-    top: 50px;
+    padding: 20px;
     /* border: 3px solid green; */
 }
 
@@ -92,16 +96,15 @@
     padding: 8px;
     border: 1px rgba(50, 206, 255, 1);
     border-bottom-style: ridge;
-    width: 300px;
+    width: 350px;
+    font-size: 20px;
 }
 
 .login__box2_formulario_entrar {
-    width: 488px;
-    text-align: center;
+    text-align: -webkit-center;
     top: 293px;
     /* border: 3px solid black; */
-    padding: 0;
-    padding-top: 10px;
+    padding: 20px;
 }
 
 .login__box2_formulario_entrar input[type="submit"] {
@@ -115,6 +118,7 @@
     cursor: pointer;
     height: 43px;
     background-color: white;
+    margin-right: 20px;
 }
 
 #imgSetaLogin {
@@ -126,44 +130,45 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif;
     position: absolute;
-    top: 341px;
+    top: 410px;
     /* border: 3px solid yellow; */
-    width: 493px;
+    width: 694px;
     text-align: -webkit-center;
+    padding: 20px;
 }
 
 .login__box3_1 {
-    font-size: 18px;
+    font-size: 21px;
     text-align: center;
-    padding-top: 15px;
+    padding: initial;
     color: darkgrey;
     /* border: 3px solid rebeccapurple; */
 }
 
 .login__box3_google {
-    font-size: 18px;
-    box-shadow: 4px 7px 5px rgb(90 94 90 / 10%);
-    width: 260px;
+    font-size: 20px;
+    box-shadow: 4px 7px 10px rgb(90 94 90 / 10%);
+    width: 300px;
     background-image: url(../Icons/google.svg);
     background-position: left;
     background-repeat: no-repeat;
-    background-size: 50px;
+    background-size: 60px;
     text-indent: 40px;
-    padding: 10px;
+    padding: 7px;
     border-radius: 40px;
     font-weight: bold;
 }
 
 .login__box3_apple {
-    font-size: 18px;
-    box-shadow: 4px 7px 5px rgb(90 94 90 / 10%);
-    width: 260px;
+    font-size: 20px;
+    box-shadow: 4px 7px 10px rgb(90 94 90 / 10%);
+    width: 300px;
     background-image: url(../Icons/apple.svg);
     background-position: left;
     background-repeat: no-repeat;
-    background-size: 50px;
+    background-size: 60px;
     text-indent: 40px;
-    padding: 10px;
+    padding: 7px;
     border-radius: 40px;
     font-weight: bold;
 }
@@ -172,16 +177,18 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif;
     position: absolute;
-    top: 548px;
-    width: 493px;
-    text-align: -webkit-center;
+    top: 710px;
+    width: 694px;
     padding: 10px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
     /* border: 3px solid rebeccapurple; */
 }
 
 .login__box4_criarConta {
-    font-size: 16px;
-    width: 150px;
+    font-size: 18px;
+    width: 180px;
     float: left;
     display: block;
     margin: auto;
@@ -192,8 +199,8 @@
 }
 
 .login__box4_esqueciSenha {
-    font-size: 16px;
-    width: 150px;
+    font-size: 18px;
+    width: 180px;
     float: right;
     display: block;
     margin: auto;

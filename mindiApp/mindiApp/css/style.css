@@ -105,6 +105,7 @@
     top: 293px;
     /* border: 3px solid black; */
     padding: 20px;
+    display: flex;
 }
 
 .login__box2_formulario_entrar input[type="submit"] {
@@ -118,12 +119,13 @@
     cursor: pointer;
     height: 43px;
     background-color: white;
-    margin-right: 20px;
+    margin-right: 7px;
 }
 
 #imgSetaLogin {
     width: 45px;
     position: absolute;
+    margin-right: 246px;
 }
 
 .login__box3 {

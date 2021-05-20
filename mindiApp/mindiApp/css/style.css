@@ -101,16 +101,17 @@
 }
 
 .login__box2_formulario_entrar {
-    text-align: -webkit-center;
+    /* text-align: -webkit-center; */
     top: 293px;
     /* border: 3px solid black; */
     padding: 20px;
     display: flex;
+    float: right;
+    width: 247px;
 }
 
 .login__box2_formulario_entrar input[type="submit"] {
     display: inline-flex;
-    margin: auto;
     border: 0px;
     font-size: 24px;
     font-weight: 700;
@@ -125,7 +126,7 @@
 #imgSetaLogin {
     width: 45px;
     position: absolute;
-    margin: auto;
+    margin-right: auto;
 }
 
 .login__box3 {
